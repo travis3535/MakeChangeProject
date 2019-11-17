@@ -5,6 +5,8 @@ public class MakeChangeApp {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 
+		double price;
+		double tendered;
 		int penniesDue = 0;
 		int nicklesDue = 0;
 		int dimesDue = 0;
@@ -13,8 +15,6 @@ public class MakeChangeApp {
 		int fivesDue = 0;
 		int tensDue = 0;
 		int twentiesDue = 0;
-		double price;
-		double tendered;
 
 		System.out.print("What was the price of the item?  $");
 		price = keyboard.nextDouble();
@@ -36,7 +36,6 @@ public class MakeChangeApp {
 			System.out.println("Thank you for your purchase. No change due.");
 			System.exit(0);
 		}
-
 		keyboard.close();
 
 		while (changeDue > 0) {
