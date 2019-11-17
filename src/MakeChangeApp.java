@@ -80,9 +80,6 @@ public class MakeChangeApp {
 				changeDue -= .01;
 				penniesDue++;
 				continue;
-			}
-			if (twentiesDue != 0) {
-				System.out.println("[" + twentiesDue + "]-twenties** ");
 			} else {
 				break;
 			}
